@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.contaienr{
+.container{
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
@@ -13,13 +13,16 @@ body{
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-color: #272727;
+    background-color: #070812;
 }
 /* header */
 .header-wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 .userStatus{
     display: flex;
@@ -94,4 +97,40 @@ body{
 }
 .btn-menu-wrapper{
     margin-left: 20px;
+}
+/* main */
+/* profile section */
+.profile-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.page-profile-img{
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.page-status{
+    display: flex;
+    align-items: center;
+}
+.status{
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    font-size: .8rem;
+}
+.following-status{
+    margin-right: 10px;
+}
+/* textsection */
+.link{
+    color: #c1c6ff;
+    text-decoration: none;
+}
+.text{
+    color: white;
+    font-weight: 100;
+    margin-bottom: 5px;
 }
