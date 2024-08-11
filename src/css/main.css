@@ -107,7 +107,7 @@ body{
     margin-bottom: 5px;
 }
 .page-profile-img{
-    width: 80px;
+    width: 90px;
     border-radius: 50%;
     margin-left: 5px;
 }
@@ -133,4 +133,64 @@ body{
     color: white;
     font-weight: 100;
     margin-bottom: 5px;
+}
+/* follow btn */
+.follow-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn1{
+    width: 49%;
+    background: #393939;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn1:hover{
+    cursor: pointer;
+}
+.btn2{
+    width: 49%;
+    background: #393939;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn2:hover{
+    cursor: pointer;
+}
+.profile-text{
+    margin-bottom: 10px;
+}
+/* navbar bottom */
+.bottom-navbar{
+    padding: 10px 20px 15px 20px;
+    border-top: 1px solid rgb(79, 79, 79);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.btn-navbotton{
+    background: none;
+    border: none;
+}
+.img-b{
+    border-radius: 50%;
+}
+.bottom-navbar-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-navbotton:hover{
+    cursor: pointer;
 }
