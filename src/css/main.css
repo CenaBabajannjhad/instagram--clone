@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contaienr{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #272727;
+}
+/* header */
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userStatus{
+    display: flex;
+    align-items: center;
+}
+.header-action-btn{
+    display: flex;
+    align-items: center;
+}
+.lock-wrapper{
+    margin-right: 10px;
+}
+.lock-img{
+    width: 15px;
+    height: 20px;
+}
+.userName-element{
+    color: #fff;
+}
+.username-wraper{
+    margin-right: 6px;
+}
+.show-accounts{
+    margin-top: 6px;
+}
+.show-acc-button{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+}
+.show-acc-button::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #f11d1d;
+    position: absolute;
+    left: 60%;
+    bottom: 40%;
+}
+.show-acc-button:hover{
+    cursor: pointer;
+}
+.show-acc-left{
+    position: absolute;
+    top: 50%;
+    transform: rotate(40deg);
+    width: 25%;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.show-acc-right{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: rotate(-40deg);
+    width: 25%;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.btn-add-img{
+    width: 20px;
+    height: 20px;
+}
+.btn-menu-img{
+    width: 20px;
+    height: 15px;
+}
+.btn-menu-wrapper{
+    margin-left: 20px;
+}
