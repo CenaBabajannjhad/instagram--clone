@@ -12,7 +12,7 @@
 body{
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: #070812;
 }
 /* header */
@@ -174,6 +174,7 @@ body{
 .bottom-navbar{
     padding: 10px 20px 15px 20px;
     border-top: 1px solid rgb(79, 79, 79);
+    background-color: #070812;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -193,4 +194,49 @@ body{
 }
 .btn-navbotton:hover{
     cursor: pointer;
+}
+/* post */
+.switch-posts > button{
+    border: none;
+    background: none;
+}
+.navb-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.switch-posts{
+    padding: 0px 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.switch-posts > button:hover{
+    cursor: pointer;
+}
+.switch-button-1{
+    position: relative;
+}
+.switch-button-1::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    bottom: -40%;
+    left: -200%;
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+}
+.post-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.post-images > img{
+    width: 150px;
+    height: 150px;
 }
