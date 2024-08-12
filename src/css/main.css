@@ -229,14 +229,20 @@ body{
     height: 2px;
     background-color: #fff;
 }
+
 .post-images{
+    padding-bottom: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 5px;
 }
-.post-images > img{
+.img-container{
+    display: flex;
+    align-items: center;
+}
+.img-container > img{
     width: 150px;
     height: 150px;
 }
